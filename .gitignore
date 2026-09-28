@@ -1,0 +1,72 @@
+# Compiled Java class files
+*.class
+target/
+**/target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle build artifacts
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Go build binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/Titan-gateway-go/titan-gateway
+/Titan-gateway-go/gateway
+
+# Python virtual envs & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Swift / Xcode / iOS build artifacts
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/*
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+**/xcuserdata/
+DerivedData/
+.build/
+
+# Logs & temporary files
+*.log
+logs/
+**/logs/
+*.tmp
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
