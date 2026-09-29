@@ -170,7 +170,7 @@ The mobile frontend is built purely with **SwiftUI** for iOS:
 All Java services are managed together using a root Maven `pom.xml`:
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Microservice-Titan.git
+git clone https://github.com/bunchhay1/Microservice-Titan.git
 cd Microservice-Titan
 
 # Build all modules with Maven
@@ -250,7 +250,7 @@ Thanks for checking out my project! If you have any suggestions, feedback, or qu
 
 - **Developer**: Chhay
 - **Project**: Titan Banking Portfolio
-- **GitHub**: [github.com/your-username](https://github.com/)
+- **GitHub**: [github.com/bunchhay1](https://github.com/)
 
 ---
 
