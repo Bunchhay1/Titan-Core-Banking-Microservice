@@ -42,6 +42,7 @@ Instead of building a simple monolithic backend, I wanted to explore how real-wo
 
 Here is the high-level design of how all the services talk to each other:
 
+
 ```mermaid
 flowchart TD
     subgraph Client["📱 Frontend"]
@@ -150,6 +151,8 @@ sequenceDiagram
 ## 📱 Native iOS Banking App
 
 The mobile frontend is built purely with **SwiftUI** for iOS:
+
+ https://www.youtube.com/watch?v=ZK7f0ASDNAI
 
 - **MVVM Pattern**: Keeps views clean by separating UI from business logic and network calls.
 - **Modern Concurrency**: Uses Swift `async/await` for smooth network requests without freezing the UI.
